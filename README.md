@@ -1,4 +1,4 @@
-# Analisi Esplorativa dei Dati per una Startup HealthTech
+# Analisi Esplorativa dei Dati per una startup HealthTech
 
 ## Sommario 
 Le piattaforme di gestione del diabete si basano sul coinvolgimento dei pazienti e sulla loro aderenza a lungo termine per ottenere risultati clinici efficaci. Questo progetto analizza la conservazione degli utenti, i comportamenti di engagement e i miglioramenti clinici all’interno di un programma terapeutico digitale per il diabete. Utilizzando l’AI, ho creato 2 dataset sintetici contenenti dati di clienti e utenti appartenenti a un'ipotetica startup HealthTech. Con SQL e Power BI ho pulito e trasformato i dati, analizzato le cause di abbandono, valutato l’efficacia del trattamento e costruito una dashboard interattiva per identificare i fattori associati alla conservazione degli utenti e al miglioramento delle condizioni di salute.
