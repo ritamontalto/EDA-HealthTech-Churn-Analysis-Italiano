@@ -28,6 +28,11 @@ Power BI: data modeling, DAX, dashboard interattive, data visualization
 ChatGPT: creazione di dataset sintetici, supporto nel brainstorming 
 
 
+## Datasets
+I dataset utilizzati in questo progetto non contengono informazioni relative a pazienti reali. Sono stati creati e generati con il supporto di ChatGPT (OpenAI) esclusivamente al fine di simulare dati realistici relativi al settore sanitario ed agli utenti per lo sviluppo del portfolio, includendo intenzionalmente incongruenze, valori mancanti, duplicati e problemi di formattazione, per un completo flusso di lavoro di pulizia dei dati e analisi esplorativa. 
+L'intelligenza artificiale è stata utilizzata esclusivamente per generare dati fittizi destinati all'analisi. Tutte le query SQL, le decisioni relative alla pulizia dei dati, le logiche di business, la progettazione delle dashboard, le misure DAX, le analisi e le interpretazioni finali sono state progettate, verificate, adattate e implementate in modo indipendente dall'autrice.
+
+
 ## Risultati & Suggerimenti
 L’analisi mostra che engagement, conservazione e miglioramenti clinici sono strettamente collegati. Migliorare le strategie di coinvolgimento e identificare precocemente gli utenti a rischio di abbandono può aumentare l’aderenza al programma e massimizzare i risultati per i pazienti.
 
@@ -65,11 +70,6 @@ Le performance di conservazione degli utenti variano in base ai canali di acquis
 
 - Valutare i canali di acquisizione in base alla qualità della conservazione, non solo al volume di utenti.
 - Ottimizzare onboarding ed esperienza di trattamento per i gruppi con tasso di abbandono più elevato.
-
-
-## Datasets
-I dataset utilizzati in questo progetto non contengono informazioni relative a pazienti reali. Sono stati creati e generati con il supporto di ChatGPT (OpenAI) esclusivamente al fine di simulare dati realistici relativi al settore sanitario ed agli utenti per lo sviluppo del portfolio, includendo intenzionalmente incongruenze, valori mancanti, duplicati e problemi di formattazione, per un completo flusso di lavoro di pulizia dei dati e analisi esplorativa. 
-L'intelligenza artificiale è stata utilizzata esclusivamente per generare dati fittizi destinati all'analisi. Tutte le query SQL, le decisioni relative alla pulizia dei dati, le logiche di business, la progettazione delle dashboard, le misure DAX, le analisi e le interpretazioni finali sono state progettate, verificate, adattate e implementate in modo indipendente dall'autrice.
 
 
 ## Cartelle e File 
