@@ -3,6 +3,7 @@
 ## Sommario 
 Le piattaforme di gestione del diabete si basano sul coinvolgimento dei pazienti e sulla loro aderenza a lungo termine per ottenere risultati clinici efficaci. Questo progetto analizza la conservazione degli utenti, i comportamenti di engagement e i miglioramenti clinici all’interno di un programma terapeutico digitale per il diabete. Utilizzando l’AI, ho creato 2 dataset sintetici contenenti dati di clienti e utenti appartenenti a un'ipotetica startup HealthTech. Con SQL e Power BI ho pulito e trasformato i dati, analizzato le cause di abbandono, valutato l’efficacia del trattamento e costruito una dashboard interattiva per identificare i fattori associati alla conservazione degli utenti e al miglioramento delle condizioni di salute.
 
+
 ## Problema del Business
 Una startup HealthTech vuole ridurre l’abbandono dei pazienti e migliorarne il coinvolgimento nel proprio programma terapeutico digitale per il diabete. La conservazione degli utenti è fondamentale nelle piattaforme digitali di questo tipo, perché il coinvolgimento continuo è necessario per ottenere risultati terapeutici a lungo termine. Il team di product management vuole capire:
 - Quali segmenti di utenti hanno il rischio di abbandono più alto?
@@ -10,15 +11,22 @@ Una startup HealthTech vuole ridurre l’abbandono dei pazienti e migliorarne il
 - Gli utenti mostrano miglioramenti misurabili durante il programma?
 - Quali fattori operativi sono associati a una migliore conservazione di utenti?
 
+
 ## Metodologia
 1. Pulizia e preparazione dei dati: query SQL per estrarre, pulire e trasformare i dati dal database.
 2. Analisi esplorativa (EDA): query SQL per selezionare dati utili a rispondere alle domande e al problema del business.
 3. Sviluppo dashboard: dashboard in Power BI per visualizzare conservazione, efficacia del trattamento e insight operativi tramite grafici e filtri interattivi.
 
-## Competenze
+
+## Competenze & Strumenti
 SQL: PostgreSQL, CTEs, Window functions, Joins, Case statements, Aggregations, Data cleaning
+
 Power BI: Data modeling, DAX, Dashboard interattive, Data visualization
+
 Analisi: analisi esplorativa, definizione KPI, generazione di business insights
+
+OpenAI: creazione di dataset sintetici, supporto nel brainstorming 
+
 
 ## Risultati & Suggerimenti
 L’analisi mostra che engagement, conservazione e miglioramenti clinici sono strettamente collegati. Migliorare le strategie di coinvolgimento e identificare precocemente gli utenti a rischio di abbandono può aumentare l’aderenza al programma e massimizzare i risultati per i pazienti.
@@ -57,6 +65,12 @@ Le performance di conservazione degli utenti variano in base ai canali di acquis
 
 - Valutare i canali di acquisizione in base alla qualità della conservazione, non solo al volume di utenti.
 - Ottimizzare onboarding ed esperienza di trattamento per i gruppi con tasso di abbandono più elevato.
+
+
+## Datasets
+I dataset utilizzati in questo progetto sono stati generati sinteticamente e non contengono informazioni relative a pazienti reali. Sono stati creati con il supporto di OpenAI ChatGPT esclusivamente a scopo di portfolio, al fine di simulare dati realistici relativi al settore sanitario e ai clienti, includendo intenzionalmente incongruenze, valori mancanti, duplicati e problemi di formattazione, per un flusso di lavoro di pulizia dei dati e analisi esplorativa completo. 
+L'intelligenza artificiale è stata utilizzata esclusivamente per generare dati fittizi destinati all'analisi. Tutte le query SQL, le decisioni relative alla pulizia dei dati, le logiche di business, la progettazione delle dashboard, le misure DAX, le analisi e le interpretazioni finali sono state progettate, verificate, adattate e implementate in modo indipendente dall'autrice.
+
 
 ## Cartelle e File 
 - Data: dataset sintetici originali e dataset puliti, pronti per l’analisi
