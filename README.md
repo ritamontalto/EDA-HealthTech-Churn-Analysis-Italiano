@@ -1,7 +1,7 @@
 # Analisi Esplorativa dei Dati per una startup HealthTech
 
 ## Sommario 
-Le piattaforme di gestione del diabete si basano sul coinvolgimento dei pazienti e sulla loro aderenza a lungo termine per ottenere risultati clinici efficaci. Questo progetto analizza la conservazione degli utenti, i comportamenti di engagement e i miglioramenti clinici all’interno di un programma terapeutico digitale per il diabete. Utilizzando l’AI, ho creato 2 dataset sintetici contenenti dati di clienti e utenti appartenenti a un'ipotetica startup HealthTech. Con SQL e Power BI ho pulito e trasformato i dati, analizzato le cause di abbandono, valutato l’efficacia del trattamento e costruito una dashboard interattiva per identificare i fattori associati alla conservazione degli utenti e al miglioramento delle condizioni di salute.
+Le piattaforme di gestione del diabete si basano sul coinvolgimento dei pazienti e sulla loro aderenza a lungo termine per ottenere risultati clinici efficaci. Questo progetto analizza la conservazione degli utenti, i comportamenti di engagement e i miglioramenti clinici all’interno di un programma terapeutico digitale per il diabete. Utilizzando l’intelligenza artificiale, ho creato 2 dataset sintetici contenenti dati di clienti e utenti appartenenti ad un'ipotetica startup HealthTech. Con SQL e Power BI ho pulito e trasformato i dati, analizzato le cause di abbandono, valutato l’efficacia del trattamento e costruito una dashboard interattiva per identificare i fattori associati alla conservazione degli utenti e al miglioramento delle condizioni di salute.
 
 
 ## Problema del Business
@@ -19,13 +19,13 @@ Una startup HealthTech vuole ridurre l’abbandono dei pazienti e migliorarne il
 
 
 ## Competenze & Strumenti
+Analisi: analisi esplorativa (EDA), definizione dei KPI, generazione di business insights
+
 SQL: PostgreSQL, CTEs, Window functions, Joins, Case statements, Aggregations, Data cleaning
 
-Power BI: Data modeling, DAX, Dashboard interattive, Data visualization
+Power BI: data modeling, DAX, dashboard interattive, data visualization
 
-Analisi: analisi esplorativa, definizione KPI, generazione di business insights
-
-OpenAI: creazione di dataset sintetici, supporto nel brainstorming 
+ChatGPT: creazione di dataset sintetici, supporto nel brainstorming 
 
 
 ## Risultati & Suggerimenti
@@ -68,7 +68,7 @@ Le performance di conservazione degli utenti variano in base ai canali di acquis
 
 
 ## Datasets
-I dataset utilizzati in questo progetto sono stati generati sinteticamente e non contengono informazioni relative a pazienti reali. Sono stati creati con il supporto di OpenAI ChatGPT esclusivamente a scopo di portfolio, al fine di simulare dati realistici relativi al settore sanitario e ai clienti, includendo intenzionalmente incongruenze, valori mancanti, duplicati e problemi di formattazione, per un flusso di lavoro di pulizia dei dati e analisi esplorativa completo. 
+I dataset utilizzati in questo progetto non contengono informazioni relative a pazienti reali. Sono stati creati e generati con il supporto di ChatGPT (OpenAI) esclusivamente al fine di simulare dati realistici relativi al settore sanitario ed agli utenti per lo sviluppo del portfolio, includendo intenzionalmente incongruenze, valori mancanti, duplicati e problemi di formattazione, per un completo flusso di lavoro di pulizia dei dati e analisi esplorativa. 
 L'intelligenza artificiale è stata utilizzata esclusivamente per generare dati fittizi destinati all'analisi. Tutte le query SQL, le decisioni relative alla pulizia dei dati, le logiche di business, la progettazione delle dashboard, le misure DAX, le analisi e le interpretazioni finali sono state progettate, verificate, adattate e implementate in modo indipendente dall'autrice.
 
 
