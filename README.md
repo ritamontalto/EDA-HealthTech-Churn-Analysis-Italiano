@@ -1,11 +1,11 @@
 # Analisi Esplorativa dei Dati per una startup HealthTech
 
 ## Sommario 
-Le piattaforme di gestione del diabete si basano sul coinvolgimento dei pazienti e sulla loro aderenza a lungo termine per ottenere risultati clinici efficaci. Questo progetto analizza la conservazione degli utenti, i comportamenti di engagement e i miglioramenti clinici all’interno di un programma terapeutico digitale per il diabete. Utilizzando l’intelligenza artificiale, ho creato 2 dataset sintetici contenenti dati di clienti e utenti appartenenti ad un'ipotetica startup HealthTech. Con SQL e Power BI ho pulito e trasformato i dati, analizzato le cause di abbandono, valutato l’efficacia del trattamento e costruito una dashboard interattiva per identificare i fattori associati alla conservazione degli utenti e al miglioramento delle condizioni di salute.
+Le piattaforme di gestione del diabete si basano sul coinvolgimento dei pazienti e sulla continuità nel tempo del trattamento per ottenere risultati clinici efficaci. Questo progetto analizza la conservazione degli utenti, i comportamenti di engagement e i miglioramenti clinici all’interno di un ipotetico programma terapeutico digitale per il diabete. Per simulare un ambiente aziendale realistico, sono stati creati 2 dataset sintetici contenenti informazioni sui clienti e sugli utenti di una startup HealthTech fittizia. Utilizzando SQL e Power BI ho pulito e trasformato i dati, analizzato le cause di abbandono, valutato l’efficacia del trattamento e costruito una dashboard interattiva per identificare i fattori associati alla conservazione degli utenti e al miglioramento degli esiti clinici.
 
 
-## Problema del Business
-Una startup HealthTech vuole ridurre l’abbandono dei pazienti e migliorarne il coinvolgimento nel proprio programma terapeutico digitale per il diabete. La conservazione degli utenti è fondamentale nelle piattaforme digitali di questo tipo, perché il coinvolgimento continuo è necessario per ottenere risultati terapeutici a lungo termine. Il team di product management vuole capire:
+## Problema Aziendale
+Una startup HealthTech vuole ridurre l’abbandono dei pazienti e migliorarne il coinvolgimento nel proprio programma terapeutico digitale per la gestione del diabete. La conservazione dei pazienti è fondamentale per le piattaforme digitali di questo tipo, perché il coinvolgimento continuo è necessario per ottenere risultati terapeutici efficaci nel lungo periodo. Il team di Product Management vuole comprendere:
 - Quali segmenti di utenti hanno il rischio di abbandono più alto?
 - Il coinvolgimento influenza la conservazione degli utenti?
 - Gli utenti mostrano miglioramenti misurabili durante il programma?
@@ -13,24 +13,72 @@ Una startup HealthTech vuole ridurre l’abbandono dei pazienti e migliorarne il
 
 
 ## Metodologia
-1. Pulizia e preparazione dei dati: query SQL per estrarre, pulire e trasformare i dati dal database.
-2. Analisi esplorativa (EDA): query SQL per selezionare dati utili a rispondere alle domande e al problema del business.
-3. Sviluppo dashboard: dashboard in Power BI per visualizzare conservazione, efficacia del trattamento e insight operativi tramite grafici e filtri interattivi.
+
+```
+Dati grezzi
+   ↓
+Pulizia e validazione dati
+   ↓
+Analisi esplorativa dei dati
+   ↓
+Dashboard interattiva Power BI
+   ↓
+Insight aziendali e raccomandazioni
+```
+
+Ogni fase del workflow è descritta di seguito
+
+**Pulizia e preparazione dei dati**
+
+I dati grezzi sono stati estratti, puliti, standardizzati e trasformati in dataset pronti per l’analisi. Le attività svolte includono:
+
+- Gestione dei duplicati
+- Trattamento dei valori mancanti
+- Standardizzazione dei formati disomogenei
+- Risoluzione di problemi relativi alla qualità dei dati 
+
+**Analisi Esplorativa dei Dati (EDA)**
+- Analisi delle principali domande relative a conservazione degli utenti, coinvolgimento ed efficacia del trattamento
+- Valutazione delle performance operative attraverso aggregazioni, segmentazioni e analisi dei KPI
+
+**Sviluppo Dashboard Interattiva**
+- Creazione di dashboard interattive con KPI card, confronti visivi e filtri dinamici per supportare decisioni basate sui dati
+- Progettazione di 3 pagine di reporting dedicate alle principali aree analitiche: analisi della conservazione, efficacia del trattamento, performance operative
 
 
-## Competenze & Strumenti
-Analisi: analisi esplorativa (EDA), definizione dei KPI, generazione di business insights
+## Competenze 
 
-SQL: PostgreSQL, CTEs, Window functions, Joins, Case statements, Aggregations, Data cleaning
+**Analytics**
+- Analisi Esplorativa dei Dati (EDA)
+- Definizione delle domande di business
+- Sviluppo KPI
+- Generazione di insight
+- Suggerimenti basati sui dati
 
-Power BI: data modeling, DAX, dashboard interattive, data visualization
+**SQL (PostgreSQL)**
+- Pulizia dati
+- Validazione dati
+- CTE
+- Window Functions
+- Join
+- CASE Statement
+- Aggregations
+- Analisi esplorativa dei dati
 
-ChatGPT: creazione di dataset sintetici, supporto nel brainstorming 
+**Power BI**
+- Modellazione dati
+- Misure DAX
+- Dashboard interattive
+- Sviluppo KPI
+- Data visualization
+
+**Sviluppo Assistito dall’AI**
+- Generazione dataset sintetici (ChatGPT)
+- Supporto al brainstorming analitico
 
 
 ## Datasets
-I dataset utilizzati in questo progetto non contengono informazioni relative a pazienti reali. Sono stati creati e generati con il supporto di ChatGPT (OpenAI) esclusivamente al fine di simulare dati realistici relativi al settore sanitario ed agli utenti per lo sviluppo del portfolio, includendo intenzionalmente incongruenze, valori mancanti, duplicati e problemi di formattazione, per un completo flusso di lavoro di pulizia dei dati e analisi esplorativa. 
-L'intelligenza artificiale è stata utilizzata esclusivamente per generare dati fittizi destinati all'analisi. Tutte le query SQL, le decisioni relative alla pulizia dei dati, le logiche di business, la progettazione delle dashboard, le misure DAX, le analisi e le interpretazioni finali sono state progettate, verificate, adattate e implementate in modo indipendente dall'autrice.
+I dataset utilizzati in questo progetto sono stati generati sinteticamente e non contengono informazioni reali sui pazienti né dati personali identificabili. Sono stati creati con il supporto dell’AI per finalità di portfolio, progettati per simulare un ambiente realistico di digital healthcare e replicare intenzionalmente problematiche comuni nella gestione dei dati sanitari, tra cui incongruenze, valori mancanti, record duplicati e problemi di formattazione. L’AI è stata utilizzata esclusivamente per generare dati fittizi destinati all’analisi. Tutte le attività di pulizia dati, query SQL, logica business, analisi esplorativa, misure DAX, progettazione dashboard e insight finali sono state sviluppate, verificate e implementate autonomamente da me.
 
 
 ## Risultati & Suggerimenti
@@ -75,5 +123,5 @@ Le performance di conservazione degli utenti variano in base ai canali di acquis
 ## Cartelle e File 
 - Data: dataset sintetici originali e dataset puliti, pronti per l’analisi
 - Power BI: dashboard interattive su conservazione, efficacia del trattamento e analisi operativa
-- SQL: query per pulizia dei dati e analisi esplorativa
+- SQL: pulizia dati e analisi esplorativa, inclusivi di query e note
 - Screenshots: anteprime delle dashboard interattive Power BI
